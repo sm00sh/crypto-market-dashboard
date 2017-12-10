@@ -1,0 +1,139 @@
+body {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-color: #212529;
+  color: white;    
+  background: url("/img/bg.jpg") no-repeat center top;
+/* 	  background: url("https://i.imgur.com/kZn7d4b.gif") no-repeat center top; */
+
+}
+.counter {
+  padding-right: 1rem;
+  font-size: 16pt;
+
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.lowerValue{
+	color:pink;
+}
+.higherValue{
+	color:lightgreen;
+}
+/*
+.equalValue{
+	color:white;
+}
+*/
+h1 {
+	font-weight: 500 !important;
+}
+
+thead {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+th {
+	font-size: 20pt;
+}
+
+tr {
+	height: 50px;
+	background-color: rgba(255, 255, 255, 0.05)
+}
+tr:nth-child(even) {background-color: rgba(255, 255, 255, 0.05);}
+
+img{
+		margin-left: 5px;
+		margin-bottom: 5px;
+}
+
+td {
+	font-size: 18pt;
+	text-align: center;
+}
+	
+	
+
+.dots {
+  margin: 40px auto;
+}
+
+.dot {
+  display: inline-block;
+  border-radius: 50%;
+  width: 50%;
+  background-color: #EEE;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+}
+.dot.dot-success {
+  background-color: #449D44;
+}
+.dot.dot-warning {
+  background-color: #F0AD4E;
+}
+.dot.dot-danger {
+  background-color: #D9534F;
+}
+.dot.dot-sm {
+  height: 10px;
+  width: 10px;
+}
+.dot.dot-lg {
+  margin: 0 4px;
+  height: 20px;
+  width: 20px;
+}
+
+/* liScroll styles */
+
+.tickercontainer { /* the outer div with the black border */
+border: 1px solid #000;
+/* background: #fff;  */
+width: 1920px;  /* 738px */
+height: 40px; 
+margin: 0; 
+padding: 0;
+overflow: hidden; 
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+left: 10px;
+top: 8px;
+width: 1900px; /* 718px */
+overflow: hidden;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+left: 1932px; /* 750px */
+font: bold 10px Verdana;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding: 0;
+/* background: #fff; */
+font: bold 20px Verdana;
+
+}
+ul.newsticker a {
+white-space: nowrap;
+padding: 0;
+color: #fff;
+font: bold 20px Verdana;
+/* margin: 0 50px 0 0; */
+} 
+ul.newsticker span.split {
+margin: 0 50px 0 0;
+} 
