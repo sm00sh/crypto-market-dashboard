@@ -8,8 +8,8 @@ for instructions on how to setup your pi to boot into a fullscreen webbrowser ch
 
 Just clone the project into your apache's public dir and point your browser to the correct url ( usually http://localhost/market-dashboard/ )
 
-1080p emulation mode (usefull for devices using a different resolution)
-http://dashboard.sm00sh.tech/m/
-
 Demo
 http://dashboard.sm00sh.tech/
+
+1080p emulation mode (usefull for devices using a different resolution)
+http://dashboard.sm00sh.tech/m/
